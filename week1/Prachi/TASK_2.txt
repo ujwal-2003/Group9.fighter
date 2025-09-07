@@ -1,0 +1,170 @@
+﻿Softwarica College of IT and E-commerce | Nepal - Unicampus | UniCampus  Global TASK 2 
+
+
+
+
+Prachi Silwal
+
+
+
+
+BSc. Hons Computer Science with AI, Softwarica college of IT and E-commerce
+
+
+
+
+ST40003CMD-Programming: Professional Practice
+
+
+
+
+  Prabisha Khadka
+
+
+
+
+ September 7, 2025
+________________
+
+
+1. Repository Setup
+Command: git clone  
+
+
+
+
+
+
+
+
+
+
+Purpose: This command clones the repository from GitHub to your local machine. Each team member needs to clone the repository after it has been created by the leader.
+
+
+
+
+* Git init:
+Command:
+  
+
+Purpose: The git init command is used to initialize a new Git repository in the current directory. It sets up the necessary files and directories for Git to track changes in your project.
+
+
+
+
+
+
+* Git Add: 
+          syntax : git add <file_name>
+  
+
+Purpose: The git add command is used to add changes from your working directory to the staging area. The staging area allows you to prepare changes before committing them to the local repository.
+
+
+
+
+* Git commit -m “update”:
+Purpose: The git commit -m "message" command is used to commit staged changes (files that have been added with git add) to the local repository. The -m flag allows you to provide a commit message, which is a brief description of what changes are being committed.
+
+
+2. Branch Creation
+Commands: 
+  
+
+
+
+
+
+* Purpose: This command creates a new branch from the main branch. In this case, the branch is named branch_Prachi for a team member named Prachi.
+
+
+  
+
+
+
+
+
+
+
+* Purpose: This command shows all branches and indicates that you are on the newly created branch.
+3. Task Work
+Command: git add .  
+
+
+
+
+
+
+Purpose: These commands are used to add files to the staging area and commit them to the branch with the message "update". Each member will add their task file in their respective folder under week1/<member-name>/.
+
+
+
+
+4. Merging to Main
+
+
+* Command: git push origin prachi
+Purpose: Pushes the changes in the member's branch (in this case, prachi) to GitHub.
+Use git push origin prachi to push the prachi branch to GitHub.
+The output should indicate the push was successful and provide the link for creating a pull request.
+
+
+* git pull → Used to fetch and merge the latest updates from the remote repository into the local copy.
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Command: git checkout main:
+           Purpose: Switches to the main branch.  
+
+
+
+
+
+
+
+
+
+
+* Command: git merge prachi:
+           Purpose: Merges the changes from the prachi branch into the main branch.  
+
+
+
+
+5. Final Check
+After merging, ensure that:
+* A week1 folder is present in the main branch.
+* Inside the week1 folder, there should be a sub-folder for each member with their respective task files.
+The GitHub interface will show the merged branches and files under the main branch.
